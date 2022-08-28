@@ -1,0 +1,20 @@
+Actualizado el 28/08/2022
+
+*REPOSITORIO
+Voy a tener copiado el repositorio de la cátedra y además tendré mi repo propio para hacer las guías. No quiero trabajar sobre el repo de la cátedra por si en algún momento lo eliminan
+
+*GESTOR DE MANEJO DE PAQUETES
+Voy a trabajar con Anaconda en un environment propio que voy a ir actualizando a medida que vaya necesitando distintos paquetes. Lo más conveniendte es iniciarlo desde Anaconda prompt. Los comandos están resumidos en la "Conda cheatsheet".
+
+Para instalar paquetes de python con anaconda
+conda install numpy
+tengo que ejecutar el anaconda prompt como administrador y estar en el environment correcto
+conda activate Introduccion_al_ML_IB
+
+*IDE
+VSC. Para acceder desde anaconda prompt hay que poner el comando
+code
+pero esto tiene problemas con la integración VSC-GitHub. Esto se puede resolver abriendo directamente VSC y eligiendo arriba a la derecha el envirnment en el que quiero trabajar (al lado de "Python version")
+
+
+
