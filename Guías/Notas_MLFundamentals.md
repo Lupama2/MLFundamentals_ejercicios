@@ -50,6 +50,12 @@ En el gridsearch en Python se puede poner los hiperparámetros como diccionario.
 
 En Random Forest está bueno usar la métrica de "Feature importance", es decir, la pureza que resulta de un split en el que está involucrado un feature en particular. Hay que tener cuidado para tomar decisiones de feature engineering sobre esto. 
 
+En la evaluación de test hay que tener cuidado y hacer las transformaciones sobre el test para que quede como el training. Si las transformaciones necesitan algún parámetro, ej un min max, usar los parámetros del train.
+
+Para exportar el modelo, hay que exportar la variable que es el modelo ya entrenado. Siempre que no hayamos creado una clase especial en Python, no debería haber problemas para exportarlo. No tiene la estandarización adentro, se asume que los datos vienen idénticamente estandarizados que los datos de entrenamiento. También asume que se sacaron los features que nosotros sacamos y se agregaron lo que nosotros agregamos. Todo esto tiene que ser explicado a la hora de enviar el archivo. De hecho, si uno quisiera hacer una página en internet que corre el modelo usa directamente el archivo .p (pickle) como una caja negra.
+
+
+
 
 
 
