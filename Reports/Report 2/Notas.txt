@@ -1,0 +1,30 @@
+
+Repasar clases de DL
+
+Típica estructura de una arquitectura de DL para la tarea de Multiclass classification
+* Input neurons: una por feature (64x64)
+* Hidden layers: depende del problema, típicamente entre 1 y 5. La cantidad de neuronas en cada layer depende del problema. Típicamente entre 10 y 100
+* Output neurons: 1 por clase. La última layer debe ser una softmax
+* Loss function: Cross-Entropy
+
+#dropout es una técnica de regularización discutida en el Gerón. Durante el entrenamiento existe una probabilidad p = 50% de que una neurona sea ignorada en un paso de entrenamiento. Esto provoca, en teoría, modelos más robustos
+#filters creo que es el nro de feature maps
+
+
+Buscar qué es CategoricalCrossentropy y CategoricalAccurracy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
